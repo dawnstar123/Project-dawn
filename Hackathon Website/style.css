@@ -8,22 +8,27 @@
 .bg-2{
 	background-color: #4d4dff;
 	color: #ffffff;
+	font-family: adc;
 }
 .bg-3{
 	background-color: #ff6666;
 	color: #ffffff;
+	font-family: adc;
 }
 .bg-4{
 	background-color: #ffb84d;
 	color: #ffffff;
+	font-family: adc;
 }
 .bg-5{
 	background-color: #cccc00;
 	color: #ffffff;
+	font-family: adc;
 }
 .bg-6{
 	background-color:#b366ff;
 	color:#ffffff;
+	font-family: adc;
 }
 	.container-fluid {
     padding-top: 10px;
@@ -48,3 +53,15 @@ body, html {
 .table td {
    text-align: center;   
 }
+@font-face {
+   font-family:adv; 
+   src: url('fonts/AdventPro-ExtraLight.ttf');
+}
+@font-face{
+	font-family: adc;
+	src: url(fonts/AdventPro-Light.ttf);
+}
+body {
+   font-family: adv;
+}
+
